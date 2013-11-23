@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^assets/(.*)$ assets/$1 [L]
+RewriteRule ^(.*)$ rame.php?rest=$1 [L]
