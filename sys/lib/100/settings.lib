@@ -1,0 +1,33 @@
+<?php
+
+	class settings {
+
+		protected $name;
+		protected $config;
+
+		function __construct($configName) {
+			global $config;
+
+			$this->name 	= $configName;
+			$this->config 	= (isset($config[$this->name])) ? $config[$this->name] : array();
+		}
+
+		function __get($section) {
+			return (isset($this->config[$section])) ? $this->config[$section] : null;
+		}
+
+		function __invoke($section = null, $key = null) {
+			if ($section and $key) {
+				$sect 	= $this->$section;
+				if ($sect) return (isset($sect[$key])) ? $sect[$key] : null;
+			} elseif ($section) {
+				$sect 	= $this->$section;
+				return ($sect) ? $sect : array();
+			} else {
+				return $this->config;
+			}
+		}
+
+	}
+
+?>

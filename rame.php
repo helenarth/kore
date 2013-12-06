@@ -1,13 +1,8 @@
-<pre><?php
-
-
+<?php
 
 	$request 	= array();
 	$mode		= initRequest($request);
 	$ready 		= boot($mode);
-
-	print $ready;
-
 
 	function initRequest(array &$request = array()) {
 		$requestURL		= null;
@@ -51,8 +46,6 @@
 		return $requestType;
 	}
 
-
-
 	function boot($mode) {
 		global $workingFolder;
 
@@ -60,7 +53,6 @@
 		$bootstrap 		= include('sys/boot/init.php');
 		return $bootstrap;
 	}
-
 
 	function processRequest() {
 
