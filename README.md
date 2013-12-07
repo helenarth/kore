@@ -1,4 +1,4 @@
 rame
 ====
 
-Rame PHP Restful API
+Restful PHP API Framework
