@@ -2,7 +2,7 @@
 
 	$request 	= array();
 	$mode		= initRequest($request);
-	$ready 		= boot($mode);
+	$ready 		= boot($mode, $request);
 
 	function initRequest(array &$request = array()) {
 		$requestURL		= null;
@@ -14,7 +14,7 @@
 		if (isset($_SERVER['REDIRECT_QUERY_STRING'])) {
 			$parts 		= explode('=', $_SERVER['REDIRECT_QUERY_STRING'], 2);
 			$requestURL	= (isset($parts[1])) ? $parts[1] : null;
-			$requestURP = explode('/', $requestURL);
+			$requestURP = array_filter(explode('/', $requestURL));
 			$requestAPI = (isset($requestURP[0]) and ($requestURP[0] == 'api'));
 		}
 
@@ -46,16 +46,15 @@
 		return $requestType;
 	}
 
-	function boot($mode) {
+	function boot($mode, $stdInput = array()) {
 		global $workingFolder;
+		global $request;
 
+		$request 		= $stdInput;
 		$workingFolder 	= getcwd();
 		$bootstrap 		= include('sys/boot/init.php');
+
 		return $bootstrap;
-	}
-
-	function processRequest() {
-
 	}
 
 

@@ -1,15 +1,16 @@
 <?php
 
 	global $workingFolder;
-
+	global $config;
+	global $request;
 
 
 	/**
 	 * Config
 	 */
-	$configFolder			= ("$workingFolder/sys/config");
+	$configFolder			= ("$workingFolder/sys/settings");
 	$config 				= loadConfiguration($configFolder);
-
+	
 
 
 	/**
