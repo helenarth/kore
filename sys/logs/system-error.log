@@ -1,0 +1,770 @@
+<errorentry>
+	<datetime>2013-12-07 08:22:45 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>mysqli::mysqli(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES)</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>29</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:25:31 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>mysqli::mysqli(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES)</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>29</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:25:31 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>mysqli::mysqli(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES)</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>29</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:25:31 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>mysqli::mysqli(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES)</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>29</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:25:32 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>mysqli::mysqli(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES)</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>29</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:25:47 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>mysqli::mysqli(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES)</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>29</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:25:52 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>mysqli::mysqli(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES)</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>29</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:25:54 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>mysqli::mysqli(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES)</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>29</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:25:54 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>mysqli::mysqli(): (HY000/1045): Access denied for user 'db_user'@'localhost' (using password: YES)</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>29</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:31:12 (UTC)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: schema</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>27</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:31:20 (UTC)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: schema</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>27</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:31:47 (UTC)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: schema</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>27</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:32:01 (UTC)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: schema</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>27</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:32:01 (UTC)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: schema</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>27</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:32:02 (UTC)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: schema</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>27</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-07 08:32:02 (UTC)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: schema</errormsg>
+	<scriptname>/server/development/projects/rame/sys/lib/101/dbConnection.lib</scriptname>
+	<scriptlinenum>27</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 02:08:20 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>include(): Filename cannot be empty</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/500/processRequest.php</scriptname>
+	<scriptlinenum>20</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 02:08:20 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/500/processRequest.php</scriptname>
+	<scriptlinenum>20</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 02:09:18 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>include(): Filename cannot be empty</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/500/processRequest.php</scriptname>
+	<scriptlinenum>20</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 02:09:18 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/500/processRequest.php</scriptname>
+	<scriptlinenum>20</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 02:09:58 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>include(): Filename cannot be empty</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/500/processRequest.php</scriptname>
+	<scriptlinenum>20</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 02:09:58 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/500/processRequest.php</scriptname>
+	<scriptlinenum>20</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 02:21:38 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>include(): Filename cannot be empty</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/500/processRequest.php</scriptname>
+	<scriptlinenum>20</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 02:21:38 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/500/processRequest.php</scriptname>
+	<scriptlinenum>20</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 02:24:19 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>include(): Filename cannot be empty</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/500/processRequest.php</scriptname>
+	<scriptlinenum>18</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 02:24:19 (UTC)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>include(): Failed opening '' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/500/processRequest.php</scriptname>
+	<scriptlinenum>18</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 03:23:38 (UTC)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined offset: 1003</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/100/errorHandler.php</scriptname>
+	<scriptlinenum>30</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 03:23:38 (UTC)</datetime>
+	<errornum>1003</errornum>
+	<errortype></errortype>
+	<errormsg>Cannot invoke class bob. Bad Request</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/100/errorHandler.php</scriptname>
+	<scriptlinenum>47</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 03:28:14 (UTC)</datetime>
+	<errornum>2048</errornum>
+	<errortype>Runtime Notice</errortype>
+	<errormsg>Cannot invoke class bob. Bad Request</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/100/errorHandler.php</scriptname>
+	<scriptlinenum>47</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-12-10 03:28:15 (UTC)</datetime>
+	<errornum>2048</errornum>
+	<errortype>Runtime Notice</errortype>
+	<errormsg>Cannot invoke class bob. Bad Request</errormsg>
+	<scriptname>/server/development/projects/rame/sys/exec/100/errorHandler.php</scriptname>
+	<scriptlinenum>47</scriptlinenum>
+</errorentry>
+
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:39:38 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">51</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:39:44 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">51</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:40:46 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:40:46 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:40:46 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:40:46 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:40:47 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:40:47 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:40:47 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:41:19 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:41:22 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:44:13 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:44:15 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:44:17 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class bob. Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => bob
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:44:29 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class . Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => 
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:44:33 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class . Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => 
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:49:10 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class . Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => 
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:50:34 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class . Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => 
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:50:35 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class . Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => 
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:51:19 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class . Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => 
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:52:05 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class . Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => 
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:52:05 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class . Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => 
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:52:05 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class . Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => 
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:52:39 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class . Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => 
+)
+</dd>
+</dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value">2013-12-10 03:52:53 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value">Cannot invoke class . Bad Request</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value">/server/development/projects/rame/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value">56</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value">Array
+(
+    [API Class] => 
+)
+</dd>
+</dl>
