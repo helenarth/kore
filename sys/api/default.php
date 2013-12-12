@@ -1,0 +1,44 @@
+<?php
+
+
+	/**
+	 * Null Handler
+	 */
+	function nullRequest() {
+		return array(
+			'folder'	=> null,
+			'class'		=> 'null',
+			'method'	=> 'get'
+		);
+	}
+
+
+	/**
+	 * Null Class
+	 */
+	class null implements api {
+
+		public function isJSON() 	{return false;}
+		public function exitError()	{return false;}
+		public function result()	{return array();}
+		public function errors()	{return array();}
+
+		public function get(	array $param = array()	) {
+			return true;
+		}
+
+		public function post(	array $param = array()	) {
+			return true;
+		}
+
+		public function put(	array $param = array()	) {
+			return true;
+		}
+
+		public function delete(	array $param = array()	) {
+			return true;
+		}
+
+	}
+
+?>

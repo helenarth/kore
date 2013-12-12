@@ -2,6 +2,16 @@
 
 	class log {
 
+		protected $printLog;
+		protected $emailLog;
+		protected $emailTo;
+
+		function __construct($print = false, $email = false, $emailTo = null) {
+			$this->printLog 	= $print;
+			$this->emailLog 	= $email;
+			$this->emailTo 		= ($emailTo) ? $emailTo : 'root@localhost';
+		}
+
 		function __set($type, $message) {
 			$this->record($type, $message);
 		}
@@ -16,13 +26,18 @@
 		    	}
 		    }
 
-		    $this->printOut($message);
+		    if ($this->printLog) $this->printOut($message);
+		    if ($this->emailLog) $this->sendEmail($message, $this->emailTo);
 
 			error_log($message, 3, $errPath);
 		}
 
 		private function sendEmail($message, $to) {
-			mail($to, $message, 'Error Notification');
+			try {
+				mail($to, $message, 'Error Notification');
+			} catch (Exception $e) {
+				throwError($e->getMessage(), 16, array('message'=>$message,'to'=>$to));
+			}
 		}
 
 		private function printOut($message) {
