@@ -48,7 +48,7 @@
 			$nullHandler = true;
 		}
 	}
-
+	
 
 	/**
 	 * Include the filepath
@@ -118,7 +118,20 @@
 	/**
 	 * Store API Result
 	 */
+	storeResult($apiResult, $loadObj);
 
+	function storeResult($result, &$object) {
+		global $apiResult;
+		global $apiErrors;
+		global $apiType;
+		global $apiExit;
+
+
+		$apiResult	= $result;
+		$apiErrors 	= $object->errors();
+		$apiType 	= ($object->isJSON()) ? 'json' : 'html/text';
+		$apiExit	= $object->exitError();
+	}
 	
 
 ?>
