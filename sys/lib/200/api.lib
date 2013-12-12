@@ -1,0 +1,14 @@
+<?php
+	
+	interface api {
+		public function isJSON();
+		public function exitError();
+		public function result();
+		public function errors();
+		public function get(	array $param = array()	);
+		public function post(	array $param = array()	);
+		public function put(	array $param = array()	);
+		public function delete(	array $param = array()	);
+	}
+
+?>
