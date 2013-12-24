@@ -1,5 +1,8 @@
 <?php
 
+	global $sessionId;
+	global $sessionType;
+
 	$sessionId 			= session_id('member');
 
 	if (!$sessionId) {
