@@ -768,3 +768,23 @@
 )
 </dd>
 </dl>
+<dl class="err err-2048">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2013-12-24 04:47:09 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2048</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Runtime Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Request returned an emtpy file</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/rame/branches/vision/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">72</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [UI Handler] => ./ui/guest/index.phtml
+)
+</dd>
+</dl>

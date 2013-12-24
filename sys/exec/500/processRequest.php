@@ -23,19 +23,46 @@
 
 
 	/**
+	 * Page Request
+	 */
+	if ($apiFolder != 'api') {
+		$apiFolder	= null;
+		$apiClass 	= 'ui';
+	}
+
+
+	/**
 	 * API Method Param
 	 */
-	if (isset($stdParam[0])) unset($stdParam[0]);
-	if (isset($stdParam[1])) unset($stdParam[1]);
-	$apiParam		= array_values($stdParam);
-	$strParam 		= implode(', ', $apiParam);
+	if ($apiClass == 'ui') {
+		//if (isset($stdParam[0])) unset($stdParam[0]);
+		$apiParam		= array_values($stdParam);
+		$strParam 		= implode(', ', $apiParam);
+	} else {
+		if (isset($stdParam[0])) unset($stdParam[0]);
+		if (isset($stdParam[1])) unset($stdParam[1]);
+		$apiParam		= array_values($stdParam);
+		$strParam 		= implode(', ', $apiParam);
+	}
 
 
 	/**
 	 * Check requested filepath
 	 * If folder/file not valid, default will be used.
 	 */
-	$loadFile		= realpath("./sys/api/$apiFolder/$apiClass.php");
+	
+	$fileList 		= array("$apiClass.php", "$apiClass.lib", "init.php", "init");
+	$loadFolder		= "./sys/api/$apiClass";
+	$loadFile 		= null;
+
+	foreach ($fileList as $file) {
+		$path 		= "$loadFolder/$file";
+
+		if (realpath($path)) $loadFile = realpath($path);
+		if ($loadFile) break;
+	}
+
+
 	if (!$loadFile) {
 		$loadFile 	= realpath("./sys/api/default.php");
 
@@ -48,7 +75,7 @@
 			$nullHandler = true;
 		}
 	}
-	
+
 
 	/**
 	 * Include the filepath
@@ -59,6 +86,7 @@
 		throwError("API could not be loaded from $apiFolder", 2048, array('API Handler'=>$loadFile));
 		exit();
 	}
+
 
 
 	/** 
@@ -102,7 +130,6 @@
 		throwError("Malformed API Class Object cannot except $apiMethod type request.", 2048, array('API Class'=>$apiClass, 'API Method'=>$apiMethod));
 		exit();
 	}
-
 
 	/**
 	 * Call API Method

@@ -24,19 +24,19 @@
 		public function errors()	{return array();}
 
 		public function get(	array $param = array()	) {
-			return true;
+			return null;
 		}
 
 		public function post(	array $param = array()	) {
-			return true;
+			return null;
 		}
 
 		public function put(	array $param = array()	) {
-			return true;
+			return null;
 		}
 
 		public function delete(	array $param = array()	) {
-			return true;
+			return null;
 		}
 
 	}

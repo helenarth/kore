@@ -40,6 +40,8 @@
 		 * Processing will continue
 		 * result is ignored 
 		 */
+
+		print_r($result);
 	}
 
 ?>
