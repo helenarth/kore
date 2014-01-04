@@ -1,17 +1,22 @@
 <?php
 
-	global $sessionId;
-	global $sessionType;
+	setSession();
 
-	$sessionId 			= session_id('member');
+	function setSession() {
+		global $sessionId;
+		global $sessionType;
 
-	if (!$sessionId) {
-		session_start('private');
-		$sessionType	= 'guest';
-	} else {
-		$sessionType	= 'member';
+		$sessionId 			= session_id('member');
+		$sessionType		= 'member';
+
+		if (!$sessionId) {
+			session_start('private');
+			$sessionType			= 'guest';
+			$_SESSION['created']	= time();
+		}
+
+		$_SESSION['type'] 	= $sessionType;		
 	}
 
-	$_SESSION['type']	= $sessionType;
 
 ?>
