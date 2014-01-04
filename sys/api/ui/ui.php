@@ -73,7 +73,32 @@
 		}
 
 		private function htmlHeaders() {
-
+            $settings		= new settings('system');
+			$config 		= $settings->assets;
+			$types          = $config['types'];
+			$buffer         = null;
+			
+			foreach ($types as $type) {
+			    
+			    $files = $config[$type];
+			    foreach ($files as $index => $source) {
+			        if (strpos($source, '//') == false) $source = "assets/$type/$source";
+			        
+			        switch ($type) {
+			             case 'css':
+			                 $str       = "<link rel=\"stylesheet\" href=\"$source\"/>";
+		                 break;
+			             
+			             case 'script':
+			                 $str       = "<script src=\"$source\"></script>";
+			             break;
+			        }
+			        
+			        $buffer .= "$str\n";
+			    }
+			}
+			
+			return trim($buffer);
 		}
 
 		public function post(	array $param = array()	) {

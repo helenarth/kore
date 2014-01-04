@@ -1,4 +1,3 @@
 RewriteEngine On
 RewriteRule ^assets/(.*)$ assets/$1 [L]
-RewriteRule ^roll.php(.*)$ roll.php$1 [L]
-RewriteRule ^(.*)$ rame.php?rest=$1 [L]
+RewriteRule ^(.*)$ kore.php?rest=$1 [L]

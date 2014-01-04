@@ -23,7 +23,7 @@
 
 
 	/**
-	 * Page Request
+	 * Default to a Page Request
 	 */
 	if ($apiFolder != 'api') {
 		$apiFolder	= null;
@@ -35,7 +35,6 @@
 	 * API Method Param
 	 */
 	if ($apiClass == 'ui') {
-		//if (isset($stdParam[0])) unset($stdParam[0]);
 		$apiParam		= array_values($stdParam);
 		$strParam 		= implode(', ', $apiParam);
 	} else {
@@ -50,7 +49,6 @@
 	 * Check requested filepath
 	 * If folder/file not valid, default will be used.
 	 */
-	
 	$fileList 		= array("$apiClass.php", "$apiClass.lib", "init.php", "init");
 	$loadFolder		= "./sys/api/$apiClass";
 	$loadFile 		= null;
@@ -130,6 +128,7 @@
 		throwError("Malformed API Class Object cannot except $apiMethod type request.", 2048, array('API Class'=>$apiClass, 'API Method'=>$apiMethod));
 		exit();
 	}
+
 
 	/**
 	 * Call API Method

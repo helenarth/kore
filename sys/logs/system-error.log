@@ -788,3 +788,1096 @@
 )
 </dd>
 </dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 07:12:00 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/1045): Access denied for user 'rame_sys'@'localhost' (using password: YES)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 07:13:10 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/1045): Access denied for user 'rame_sys'@'localhost' (using password: YES)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 07:13:11 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/1045): Access denied for user 'rame_sys'@'localhost' (using password: YES)</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:15:59 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:18:21 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:18:27 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:18:29 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:18:32 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:18:39 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:29:24 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:32:21 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:32:23 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:33:08 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): No such file or directory</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:33:10 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): No such file or directory</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:33:10 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): No such file or directory</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:33:11 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): No such file or directory</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:33:11 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): No such file or directory</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:34:13 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:34:15 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:34:15 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:34:16 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:34:16 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:34:16 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:34:16 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 08:34:17 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 18:59:41 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 19:00:55 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 19:00:56 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 19:00:57 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 19:00:57 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 19:00:58 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 19:00:58 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 19:00:58 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 19:00:58 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 19:36:18 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 19:50:15 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 21:39:43 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-01 21:46:42 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-2">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-02 00:32:55 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">2</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Warning</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">mysqli::mysqli(): (HY000/2002): Connection refused</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/lib/101/dbConnection.lib</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">29</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-02 06:43:12 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: file</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/api/ui/ui.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">85</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => system
+            [config:protected] => Array
+                (
+                    [application] => Array
+                        (
+                            [version] => 0.11
+                        )
+
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => 10.1.1.200
+                            [port] => 3306
+                            [user] => rame_sys
+                            [password] => sys_r@m3
+                            [schema] => test
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 1
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => script
+                                )
+
+                            [css] => Array
+                                (
+                                    [100] => rame.css
+                                )
+
+                            [script] => Array
+                                (
+                                    [100] => rame.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [config] => Array
+        (
+            [types] => Array
+                (
+                    [0] => css
+                    [1] => script
+                )
+
+            [css] => Array
+                (
+                    [100] => rame.css
+                )
+
+            [script] => Array
+                (
+                    [100] => rame.js
+                )
+
+        )
+
+    [types] => Array
+        (
+            [0] => css
+            [1] => script
+        )
+
+    [buffer] => 
+    [type] => css
+    [files] => Array
+        (
+            [100] => rame.css
+        )
+
+    [index] => 100
+    [source] => rame.css
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-8">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-02 06:43:12 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">8</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Notice</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">Undefined variable: file</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/api/ui/ui.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">85</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [settings] => settings Object
+        (
+            [name:protected] => system
+            [config:protected] => Array
+                (
+                    [application] => Array
+                        (
+                            [version] => 0.11
+                        )
+
+                    [database] => Array
+                        (
+                            [type] => mysql
+                            [host] => 10.1.1.200
+                            [port] => 3306
+                            [user] => rame_sys
+                            [password] => sys_r@m3
+                            [schema] => test
+                        )
+
+                    [logger] => Array
+                        (
+                            [phpReporting] => 1
+                            [print] => 1
+                            [email] => 
+                            [to] => root@localhost
+                        )
+
+                    [ui] => Array
+                        (
+                            [default] => index
+                        )
+
+                    [assets] => Array
+                        (
+                            [types] => Array
+                                (
+                                    [0] => css
+                                    [1] => script
+                                )
+
+                            [css] => Array
+                                (
+                                    [100] => rame.css
+                                )
+
+                            [script] => Array
+                                (
+                                    [100] => rame.js
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [config] => Array
+        (
+            [types] => Array
+                (
+                    [0] => css
+                    [1] => script
+                )
+
+            [css] => Array
+                (
+                    [100] => rame.css
+                )
+
+            [script] => Array
+                (
+                    [100] => rame.js
+                )
+
+        )
+
+    [types] => Array
+        (
+            [0] => css
+            [1] => script
+        )
+
+    [buffer] => <link rel="stylesheet" href="assets/css/"/>
+
+    [type] => script
+    [files] => Array
+        (
+            [100] => rame.js
+        )
+
+    [index] => 100
+    [source] => rame.js
+    [str] => <link rel="stylesheet" href="assets/css/"/>
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-16">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-03 04:43:40 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">16</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Core Error</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">UI Missing</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">73</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [UI Handler] => ./ui//index.phtml
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-16">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-03 04:43:48 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">16</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Core Error</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">UI Missing</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">73</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [UI Handler] => ./ui//index.phtml
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>
+<dl class="err err-16">
+	<dt class="err-label">Date/Time</dt>
+		<dd class="err-value err-string">2014-01-03 04:43:50 (UTC)</dd>
+	<dt class="err-label">Error Number</dt>
+		<dd class="err-value err-string">16</dd>
+	<dt class="err-label">Error Type</dt>
+		<dd class="err-value err-string">Core Error</dd>
+	<dt class="err-label">Message</dt>
+		<dd class="err-value err-string">UI Missing</dd>
+	<dt class="err-label">File</dt>
+		<dd class="err-value err-string">/server/development/projects/kore/branches/c9/sys/exec/100/errorHandler.php</dd>
+	<dt class="err-label">Line</dt>
+		<dd class="err-value err-string">73</dd>
+	<dt class="err-label">Variables</dt>
+		<dd class="err-value err-array">Array
+(
+    [UI Handler] => ./ui//index.phtml
+)
+</dd>
+	<dt class="err-label">Remote Address</dt>
+		<dd class="err-value err-string">10.1.1.1</dd>
+</dl>

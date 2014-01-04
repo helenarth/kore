@@ -40,7 +40,8 @@
 	    	'Message'			=> $errmsg,
 	    	'File'				=> $filename,
 	    	'Line'				=> $linenum,
-	    	'Variables'			=> $vars
+	    	'Variables'			=> $vars,
+	    	'Remote Address'    => $_SERVER['REMOTE_ADDR']
     	);
 
 	    /** Output **/
