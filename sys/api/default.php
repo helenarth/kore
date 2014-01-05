@@ -22,6 +22,10 @@
 		public function exitError()	{return false;}
 		public function result()	{return array();}
 		public function errors()	{return array();}
+		
+		public function permission(array $param = array()) {
+		    return true;
+		}
 
 		public function get(	array $param = array()	) {
 			return null;

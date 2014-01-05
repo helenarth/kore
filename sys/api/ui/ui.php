@@ -6,6 +6,10 @@
 		public function exitError()	{return false;}
 		public function result()	{return array();}
 		public function errors()	{return array();}
+		
+		public function permission(array $param = array()) {
+		    return true;
+		}
 
 		public function get(	array $param = array()	) {
 			global $sessionType;
@@ -82,17 +86,20 @@
 			    
 			    $files = $config[$type];
 			    foreach ($files as $index => $source) {
-			        if (strpos($source, '//') == false) $source = "assets/$type/$source";
+			        $str    = null;
+			        if (strpos($source, '//') === false) $source = "assets/$type/$source";
 			        
 			        switch ($type) {
 			             case 'css':
 			                 $str       = "<link rel=\"stylesheet\" href=\"$source\"/>";
 		                 break;
 			             
-			             case 'script':
+			             case 'js':
 			                 $str       = "<script src=\"$source\"></script>";
 			             break;
 			        }
+			        
+			        if (!$source or !$str) continue;
 			        
 			        $buffer .= "$str\n";
 			    }
