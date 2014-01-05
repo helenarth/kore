@@ -18,7 +18,7 @@
 	 */
 	$apiFolder		= (isset($stdParam[0])) ? $stdParam[0] : null;
 	$apiClass		= (isset($stdParam[1])) ? $stdParam[1] : null;
-	$apiMethod		= $stdType;
+	$apiMethod      = (isset($stdParam[2])) ? $stdParam[2] : $stdType;
 	$nullHandler	= false;
 
 
@@ -28,6 +28,7 @@
 	if ($apiFolder != 'api') {
 		$apiFolder	= null;
 		$apiClass 	= 'ui';
+		$apiMethod	= $stdType;
 	}
 
 
@@ -37,9 +38,13 @@
 	if ($apiClass == 'ui') {
 		$apiParam		= array_values($stdParam);
 		$strParam 		= implode(', ', $apiParam);
+	} elseif ($stdType == 'post') {
+	    $apiParam       = $_POST;
+	    $strParam       = implode(', ', $apiParam);
 	} else {
 		if (isset($stdParam[0])) unset($stdParam[0]);
 		if (isset($stdParam[1])) unset($stdParam[1]);
+		if (isset($stdParam[2])) unset($stdParam[2]);
 		$apiParam		= array_values($stdParam);
 		$strParam 		= implode(', ', $apiParam);
 	}
@@ -127,6 +132,18 @@
 		/** User Request Error (2048) **/
 		throwError("Malformed API Class Object cannot except $apiMethod type request.", 2048, array('API Class'=>$apiClass, 'API Method'=>$apiMethod));
 		exit();
+	}
+	
+	
+	
+	/**
+	 * Check Permissions
+	 */
+	$hasPermission = $loadObj->permission(array($apiMethod));
+	if (!$hasPermission) {
+	    /** User Request Error (2048) **/
+	    throwError("Access is denied", 2048, array('API Class'=>$apiClass, 'API Method'=>$apiMethod));
+	    exit();
 	}
 
 
