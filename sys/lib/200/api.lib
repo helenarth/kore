@@ -10,6 +10,8 @@
 		public function put(	    array $param = array()	);
 		public function delete(	    array $param = array()	);
 		public function permission( array $param = array()  );
+		public function getPage(    array $param = array()  );
+		public function permissionList();
 	}
 
 ?>

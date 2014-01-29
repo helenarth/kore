@@ -6,11 +6,13 @@
 	global $request;
 	
 
+
 	/**
 	 * Get Std Input
 	 */
 	$stdParam		= (isset($request['urp']))	? $request['urp'] 	: array();
 	$stdType		= (isset($request['type']))	? $request['type']	: 'get';
+
 
 
 	/**
@@ -22,6 +24,7 @@
 	$nullHandler	= false;
 
 
+
 	/**
 	 * Default to a Page Request
 	 */
@@ -30,6 +33,7 @@
 		$apiClass 	= 'ui';
 		$apiMethod	= $stdType;
 	}
+
 
 
 	/**
@@ -48,6 +52,7 @@
 		$apiParam		= array_values($stdParam);
 		$strParam 		= implode(', ', $apiParam);
 	}
+
 
 
 	/**
@@ -80,6 +85,7 @@
 	}
 
 
+
 	/**
 	 * Include the filepath
 	 */
@@ -105,6 +111,7 @@
 	}
 
 
+
 	/**
 	 * Validate the class exists
 	 */
@@ -121,6 +128,7 @@
 		}
 
 	}
+
 
 
 	/**
@@ -147,6 +155,7 @@
 	}
 
 
+
 	/**
 	 * Call API Method
 	 */
@@ -156,6 +165,7 @@
 		/** Runtime Error (2048) **/
 		throwError("Cannot call API Method: $apiClass->$apiMethod($strParam). ".$e->getMessage(), 2048, array('request'=>$stdParam, 'exception'=>$e));
 	}
+
 
 
 	/**
@@ -168,7 +178,6 @@
 		global $apiErrors;
 		global $apiType;
 		global $apiExit;
-
 
 		$apiResult	= $result;
 		$apiErrors 	= $object->errors();

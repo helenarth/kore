@@ -5,8 +5,12 @@
 		protected $name;
 		protected $config;
 
-		function __construct($configName) {
+		function __construct($configName, $path = null) {
 			global $config;
+			
+			if ($path) {
+		        $config[$configName]	= parse_ini_file($path, true);
+			}
 
 			$this->name 	= $configName;
 			$this->config 	= (isset($config[$this->name])) ? $config[$this->name] : array();

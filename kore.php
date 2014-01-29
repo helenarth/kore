@@ -1,8 +1,11 @@
 <?php
 
+    global $version;
+
 	$request 	= array();
 	$mode		= initRequest($request);
 	$ready 		= boot($mode, $request);
+	$version    = getVersion();
 
 	function initRequest(array &$request = array()) {
 		$requestURL		= null;
@@ -45,6 +48,22 @@
 
 		return $requestType;
 	}
+	
+	function getVersion() {
+	    $value  = null;
+	    $lines  = explode("\n", `svn info`);
+	    
+	    foreach ($lines as $line) {
+	        $parts  = explode(":", $line, 2);
+	        $key    = trim($parts[0]);
+	        if ($key != "Revision") continue;
+	        
+	        $value  = trim($parts[1]);
+	        if ($value) break;
+	    }
+	    
+	    return $value;
+	}
 
 	function boot($mode, $stdInput = array()) {
 		global $workingFolder;
@@ -56,7 +75,5 @@
 
 		return $bootstrap;
 	}
-
-
 
 ?>

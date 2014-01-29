@@ -1,33 +1,10 @@
 <?php
 
-    class authority implements api {
+    class authority extends ui_api {
         
-        private $json = false;
-
-		public function isJSON() 	{return $this->json;}
-		public function exitError()	{return false;}
-		public function result()	{return array();}
-		public function errors()	{return array();}
-		
-		private function permissionList() {
-		    return array(
-		        'permission',
-		        'get',
-		        'post',
-		        'signin'
-		    );
-		}
-		
-		public function permission(array $param = array()) {
-		    
-		    if ($param) {
-		        $result     = (in_array($param[0], $this->permissionList()));
-		    } else {
-		        $result     = $this->permissionList();
-		    }
-		    
-		    return $result;
-		}
+        public function __construct() {
+            parent::__construct(__DIR__);
+        }
 
 		public function get(	array $param = array()	) {
 		    if ($param) {
@@ -48,9 +25,8 @@
 		}
 
 		public function post(	array $param = array()	) {
-			$_SESSION['type'] = 'member';
-			header("Location: ./");
-			return true;
+		    $_SESSION['type'] = 'member';
+			return array('reload'=>$_SERVER['HTTP_REFERER']);
 		}
 
 		public function put(	array $param = array()	) {
@@ -58,21 +34,16 @@
 		}
 
 		public function delete(	array $param = array()	) {
-			return null;
+			$_SESSION['type']   = 'guest';
+			return array('reload'=>$_SERVER['HTTP_REFERER']);
 		}
 		
 		public function signin() {
-		    return 
-		        "
-		        <form role=\"form\" method=\"post\" action=\"./\">
-		            <input type=\"email\" name=\"email\" required placeholder=\"Email Address\"/>
-		            <br/>
-		            <input type=\"password\" name=\"password\" required placeholder=\"Password\"/>
-		            <br/>
-		            <button type=\"submit\">Sign In</button>
-		        </form>
-		        "
-		    ;
+		    return $this->getPage(array('signin'), dirname(__FILE__));
+		}
+		
+		public function register() {
+		    return $this->getPage(array('register'), dirname(__FILE__));
 		}
 
 	}

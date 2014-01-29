@@ -40,8 +40,13 @@
 		 * Processing will continue
 		 * result is ignored 
 		 */
+		if (isset($result['reload'])) {
+		    header("Location: {$result['reload']}");
+		    exit();
+		}
 
-		print_r($result);
+		print $result;
+		exit();
 	}
 
 ?>

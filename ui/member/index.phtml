@@ -1,1 +1,39 @@
-members only bitch
+<div class="space"></div>
+<div class="container">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="title lg text-muted">
+                    Kore 
+                    <small>version 0.1.<?=getVersion();?></small>
+                </h3>
+            </div>
+            <div class="panel-body">
+                <div id="content">
+                    <p class="md">
+                        Welcome. 
+                    </p>
+                    <p>
+                        Since you have made it this far, I must
+                        confess there is nothing here.
+                    </p>
+                    <p>
+                        Thanks for playing.
+                    </p>
+                    <div>
+                        <button type="button" title="Sign Out" class="btn-inverse btn" id="btn_signout">Sign Out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var exec = new rame();
+    
+    document.onready = function() {
+        $("#btn_signout").click(function() {
+            exec.delete("api/authority/");
+        });
+    };
+</script>

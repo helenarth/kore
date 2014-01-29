@@ -16,12 +16,13 @@
 	/**
 	 * Null Class
 	 */
-	class null implements api {
+	class null extends ui_api {
 
 		public function isJSON() 	{return false;}
 		public function exitError()	{return false;}
 		public function result()	{return array();}
 		public function errors()	{return array();}
+		public function getPage(array $param = array())   {return null;}
 		
 		public function permission(array $param = array()) {
 		    return true;

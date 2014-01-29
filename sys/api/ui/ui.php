@@ -1,15 +1,10 @@
 <?php
 
-	class ui implements api {
-
-		public function isJSON() 	{return false;}
-		public function exitError()	{return false;}
-		public function result()	{return array();}
-		public function errors()	{return array();}
-		
-		public function permission(array $param = array()) {
-		    return true;
-		}
+	class ui extends ui_api {
+	    
+	    function __construct() {
+	        parent::__construct(__DIR__);
+	    }
 
 		public function get(	array $param = array()	) {
 			global $sessionType;
@@ -60,20 +55,17 @@
 			return $included;
 		}
 
-		private function buildHtml(&$buffer) {
+		private function buildHtml(&$body) {
+		    $version    = getVersion();
 			$headers 	= str_replace("\n", "\n\t\t", $this->htmlHeaders());
-			$buffer 	= str_replace("\n", "\n\t\t", $buffer);
-			$buffer		= 
-				"<!DOCTYPE html>\n".
-				"<html lang=\"EN-US\">\n".
-				"\t<head>\n".
-				"\t\t$headers\n".
-				"\t</head>\n".
-				"\t<body>\n".
-				"\t\t$buffer\n".
-				"\t</body>\n".
-				"</html>"
-			;
+			$body 	    = str_replace("\n", "\n\t\t", $body);
+			$buffer     = $this->getPage(array('frame'), dirname(__FILE__), true);
+			$body       = str_replace(
+			    array('%header%', '%body%', '%name%', '%author%', '%version%'),
+			    array($headers, $body, 'Kore', 'VisionMise', $version),
+			    $buffer
+		    );
+			
 		}
 
 		private function htmlHeaders() {
@@ -106,18 +98,6 @@
 			}
 			
 			return trim($buffer);
-		}
-
-		public function post(	array $param = array()	) {
-			return true;
-		}
-
-		public function put(	array $param = array()	) {
-			return true;
-		}
-
-		public function delete(	array $param = array()	) {
-			return true;
 		}
 
 	}

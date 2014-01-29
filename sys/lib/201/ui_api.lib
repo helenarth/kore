@@ -1,0 +1,109 @@
+<?php
+
+    class ui_api implements api {
+        
+        protected $json         = false;
+        protected $errors       = array();
+        protected $result       = null;
+        protected $exitError    = false;
+        protected $config       = null;
+        protected $runtimeFolder;
+        
+        function __construct($runtimeFolder) {
+            $this->runtimeFolder    = $runtimeFolder;
+            $this->loadConfig();
+        }
+        
+        function __invoke() {
+            
+        }
+        
+        function __toString() {
+            
+        }
+        
+        function __get($key) {
+            return (isset($this->config->settings[$key]))
+                ? $this->config->settings[$key]
+                : null
+            ;
+        }
+        
+        function __set($key, $value) {
+            
+        }
+        
+        public function permissionList() {
+            if ($this->config->permissions) {
+                $perms  = array();
+                
+                foreach ($this->config->permissions as $p => $e) {
+                    if ($e == true) $perms[] = $p;
+                }
+                
+                return (count($perms) > 0) ? $perms : array('get');
+            } else {
+                return array('get');
+            }
+        }
+        
+        public function getPage(array $param = array(), $root = null, $returnOnly = false) {
+            $folder     = $root;
+		    $url        = implode('/', $param);
+		    $path       = realpath("$folder/pages/$url.phtml");
+		    
+		    if (!$path) {
+		        throwError("Page does not exist", 2048, true);
+		        exit();
+		    }
+		    
+		    if ($returnOnly) {
+		        ob_start();
+		        
+		        if (!include($path)) {
+    		        throwError("Page was denied", 2048, true);
+    		    }
+    		    
+		        $return = ob_get_contents();
+		        ob_end_clean();
+		    } else {
+		        if (!include($path)) {
+    		        throwError("Page was denied", 2048, true);
+    		        exit();
+    		    }
+    		    
+    		    $return = null;
+		    }
+		    
+		    return $return;
+        }
+        
+        public function isJSON() {return $this->json;}
+		public function exitError() {return false;}
+		public function result() {}
+		public function errors() {return $this->errors;}
+		public function get(	    array $param = array()	) {}
+		public function post(	    array $param = array()	) {}
+		public function put(	    array $param = array()	) {}
+		public function delete(	    array $param = array()	) {}
+		public function permission( array $param = array()  ) {
+		    if ($param) {
+		        $result     = (in_array($param[0], $this->permissionList()));
+		    } else {
+		        $result     = $this->permissionList();
+		    }
+		    
+		    return $result;
+		}
+		
+		protected function loadConfig() {
+		    $root           = $this->runtimeFolder;
+		    $path           = realpath("$root/settings.conf");
+		    if (!$path) return array();
+		    
+		    $this->config   = new settings(__CLASS__, $path);
+		    return $this->config;
+		}
+    }
+
+?>

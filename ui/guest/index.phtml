@@ -1,1 +1,40 @@
-Guest
+<script>
+    var exec = new rame();
+    
+    document.onready = function() {
+        $("#a_signin").click(function() {
+            exec.api("api/authority/signin", $("#content"));
+        });
+        
+        $("#a_register").click(function() {
+            exec.api("api/authority/register", $("#content"));
+        });
+        
+    };
+    
+</script>
+<div class="space"></div>
+<div class="container">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="title lg text-muted">
+                    Kore 
+                    <small>version 0.1.<?=getVersion();?></small>
+                </h3>
+            </div>
+            <div class="panel-body">
+                <div id="content">
+                    <div class="pull-right">
+                        <nav class="lg">
+                            <a title="Register" id="a_register" href="javascript:void(0);"><span class="glyphicon glyphicon-registration-mark"></span></a>
+                            &nbsp;
+                            <a title="Sign In" id="a_signin" href="javascript:void(0)"><span class="glyphicon glyphicon-log-in"></span></a>
+                            &nbsp;
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

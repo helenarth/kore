@@ -1,0 +1,37 @@
+<form role="form" method="post" action="./api/authority/">
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input class="form-control" type="email" name="email" required placeholder="Email Address"/>        
+        <p class="help-block">
+            A valid email address is required to register.
+        </p>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input class="form-control" type="password" name="password" required placeholder="New Password"/>
+        <p class="help-block">
+            Enter a new password
+        </p>
+    </div>
+    <div class="form-group">
+        <label for="confirm">Confirm</label>
+        <input class="form-control" type="confirm" name="confirm" required placeholder="Confirm New Password"/>
+        <p class="help-block">
+            Confirm a new password
+        </p>
+    </div>
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input class="form-control" type="username" name="username" required placeholder="New Username"/>
+        <p class="help-block">
+            Create a username
+        </p>
+    </div>
+    <div class="form-group pull-right">
+        <button id="cancel" type="button" class="btn btn-inverse">Cancel</button>
+        <button type="submit" class="btn btn-inverse">Register</button>
+    </div>
+    <script>
+        $("#cancel").click(function() {document.location = document.location;});
+    </script>
+</form>
